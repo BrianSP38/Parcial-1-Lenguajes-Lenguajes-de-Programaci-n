@@ -1,0 +1,9 @@
+C es más rápido al ser compilado directamente a código máquina, es ideal para aplicaciones donde el tiempo de respuesta es crítico (sistemas embebidos, simulaciones científicas).
+
+Haskell es más expresivo su sintaxis es más corta y clara, lo que facilita el desarrollo y reduce errores lógicos, pero a costa de rendimiento.
+
+En terminos de sonsumo de memoria C es muy eficiente, mientras que Haskell necesita más recursos debido a su modelo de ejecución (evaluación perezosa, recolector de basura).
+
+Escalabilidad:
+-En problemas pequeños la diferencia es despreciable.
+-En problemas grandes, la diferencia se hace evidente (C puede ser hasta 10x más rápido).
